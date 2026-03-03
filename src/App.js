@@ -141,7 +141,7 @@ function GlobalNav({ activeRole, setActiveRole, activePage, setActivePage, selec
                 background: activeRole === key ? "linear-gradient(135deg,#1D4ED8,#2563EB)" : "transparent",
                 color: activeRole === key ? "#fff" : "#475569",
                 boxShadow: activeRole === key ? "0 2px 8px rgba(29,78,216,0.4)" : "none" }}>
-              {key === "reviewer" ? "👤 Reviewer" : key === "head" ? "🏛 Org Unit Head" : "⚙️ Admin"}
+              {key === "reviewer" ? "👤 Maker" : key === "head" ? "🏛 Checker" : "⚙️ Admin"}
             </button>
           ))}
         </div>
